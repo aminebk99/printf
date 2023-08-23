@@ -16,7 +16,7 @@ int _print_int(int num)
 		num = -num;
 	}
 
-	ncp += _printunsigned_int(num);
+	ncp += _print_unsigned_int(num);
 
 	return (ncp);
 }
